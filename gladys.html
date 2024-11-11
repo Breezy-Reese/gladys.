@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+    <title>Youth System</title>
+</head>
+<style>/*
+    body {
+    font-family: 'Arial', sans-serif;
+}
+
+
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    height: 200px; 
+    object-fit: cover; 
+}
+
+.logo {
+    width: 50px; 
+    height: auto;
+    margin-right: 10px; 
+}
+
+.hero {
+    background: linear-gradient(to right, #0056b3, #007bff);
+    color: white;
+    position: relative;
+    overflow: hidden; 
+    padding: 60px 0; 
+}
+
+.text-section {
+    flex: 1;
+    padding: 20px; 
+}
+
+.image-section {
+    flex: 1;
+    text-align: center; 
+}
+
+.image-section img {
+    max-width: 100%; 
+    height: 80%;
+    border-radius: 15px; 
+
+}
+
+h1 {
+    font-family: 'Arial Black', sans-serif; 
+    font-size: 2.5rem; 
+}
+
+.lead {
+    font-size: 1.2rem; 
+}
+
+.btn {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    border-radius: 25px; 
+
+.btn:hover {
+    background-color: #fff; 
+    color: #007bff; 
+    transform: scale(1.05); 
+}
+
+.shadow {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
+}
+
+
+@media (max-width: 768px) {
+    .hero {
+        padding: 40px 0; 
+    }
+    
+    h1 {
+        font-size: 2rem; 
+    }
+
+    .lead {
+        font-size: 1rem; 
+    }
+    
+    .image-section img {
+        max-width: 80%; 
+    }
+}
+    */ body {
+        font-family: 'Arial', sans-serif;
+        }
+
+        .card {
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .logo {
+            width: 50px;
+            margin-right: 10px;
+        }
+
+        .hero {
+            background: linear-gradient(to right, #0056b3, #007bff);
+            color: white;
+            padding: 80px 0;
+        }
+
+        .btn:hover {
+            background-color: #fff;
+            color: #007bff;
+            transform: scale(1.05);
+        }
+
+        .shadow {
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .testimonials {
+            background-color: #f8f9fa;
+        }
+
+        .newsletter {
+            background-color: #343a40;
+            color: white;
+            padding: 50px 0;
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .image-section img {
+                max-width: 100%;
+            }
+        }
+</style>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="../public/img/gallery/merged_logos.png" alt="Youth System Logo" class="logo"> <!-- Add your logo here -->
+                Youth System
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-primary" href="register.php">Register</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+   <!-- Hero Section -->
+   <header class="hero text-center text-white">
+        <div class="container">
+            <h1 class="display-4">Empowering Youth for a Brighter Future</h1>
+            <p class="lead">Join our community and access programs, resources, and opportunities.</p>
+            <a href="login.php" class="btn btn-light btn-lg shadow">Get Started</a>
+        </div>
+    </header>
+
+
+
+    <!-- Features Section -->
+    <section id="features" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Our Features</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="../public/img/gallery/programs.png" class="card-img-top" alt="Programs">
+                        <div class="card-body">
+                            <h5 class="card-title">Programs</h5>
+                            <p class="card-text">Explore a wide range of programs designed to enhance your skills and knowledge.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="../public/img/gallery/resources.png" class="card-img-top" alt="Resources">
+                        <div class="card-body">
+                            <h5 class="card-title">Resources</h5>
+                            <p class="card-text">Access various resources including articles, videos, and guides to support your development.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="../public/img/gallery/community.png" class="card-img-top" alt="Community">
+                        <div class="card-body">
+                            <h5 class="card-title">Community</h5>
+                            <p class="card-text">Connect with like-minded individuals and build a network of support and collaboration.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">About Us</h2>
+            <p class="text-center">We are dedicated to empowering youth through access to education, resources, and community support. Our mission is to inspire and equip the next generation for success in their personal and professional lives.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>&copy; 2024 Youth System. All rights reserved.</p>
+            <a href="#" class="text-white">Privacy Policy</a> | <a href="#" class="text-white">Terms of Service</a>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
